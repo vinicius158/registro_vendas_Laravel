@@ -1,0 +1,261 @@
+*{
+
+    margin:0;   
+    left:0;        
+    font-family:"Lato",sans-serif;             
+    
+    }      
+    
+    body{
+    
+    background:#696969;      
+    
+    }
+    
+    .sidebar{
+    
+    width:250px;      
+    height:100%;     
+    position:fixed;        
+    background:black;       
+    color:white;       
+    
+    }          
+    
+    .sidebar .topo{
+    
+    width:250px;    
+    height:100px;    
+    background:#2E8B57;     
+    display:flex;      
+    align-items:center;      
+    justify-content:center;           
+    flex-direction:row;            
+    
+    }        
+    
+    ul{
+    
+    position:absolute;      
+    width:100%;   
+    left:-40px;             
+    
+    }
+    
+    ul li{
+    
+    list-style:none; 
+    position:relative;                         
+    padding-left:20px;        
+    padding-top:30px;   
+    padding-bottom:30px;     
+    transition:0.5s;   
+    
+    }         
+    
+    ul li:hover{
+    
+    background:blue;
+    
+    }
+    
+    ul li a{
+    
+    text-decoration:none;     
+    color:white;           
+    font-size:20px;            
+    
+    }       
+    
+    .title{
+    
+    font-weight:bold;   
+    
+    }     
+    
+    .icon{
+    
+    margin-right:10px;
+    
+    }     
+    
+    .main{
+    
+    position:absolute;      
+    width:calc(100% - 250px);             
+    left:250px;           
+    height:100vh;                     
+    
+    }
+    
+    .main .topbar{
+    
+        width:100%;     
+        background:	#1C1C1C;      
+        display:flex;        
+        justify-content:space-between;
+        align-items:center;   
+        height:100px;       
+        color:white;         
+        
+    }           
+    
+    #icone{
+    
+    margin-left:30px;    
+    margin-right:30px;  
+    font-size:30px;
+    
+    }
+           
+    input{
+    
+    padding:5px;    
+    font-size:18px;       
+    border-radius:5px;    
+    outline:none;       
+    border:none;     
+    display:block;     
+    margin-top:20px;       
+    margin-left:45px;          
+    width:300px;
+    
+    }           
+
+    input[type="file"]{
+
+    margin-bottom:20px;
+
+    }
+    
+    button{
+    
+        padding-top:5px;     
+        padding-bottom:5px;    
+        padding-left:10px;    
+        padding-right:10px;    
+        font-size:18px;       
+        border-radius:5px;
+        color:white;    
+        background:	#1E90FF;    
+        border:none;          
+        margin-left:45px;     
+        width:310px;    
+        margin-top:20px;
+    
+    }     
+    
+    .main .content{
+    
+    width:80%;     
+    height:480px;             
+    margin-left:10%;      
+    margin-top:15px;  
+    
+    
+    }      
+    
+    .main .title2{
+    
+    text-align:center;            
+    color:white;        
+    font-size:30px;        
+    font-weight:bold;         
+    padding-top:30px;
+    margin-bottom:30px;
+    
+    }      
+    
+    table{
+    
+    width:100%;    
+    margin-left:0;    
+    
+    }
+    
+    table, tr, td{
+    
+    border:solid 1px;       
+    border-collapse:collapse;                   
+    
+    }             
+    
+    tbody{
+    
+    background:	#A9A9A9;
+    text-align:center;         
+    font-weight:bold;           
+    
+    
+    }
+    
+    .header{
+    
+    background:black;   
+    padding:10px;    
+    text-align:center;
+    
+    }      
+    
+    .atributo{
+    
+    color:white;      
+    font-size:18px;    
+    font-weight:bold;       
+    
+    }       
+    
+   .form{
+
+   width:400px;   
+   height:auto;   
+   background:black;      
+   border-radius:5px;           
+   padding-bottom:35px;   
+   padding-top:20px;       
+   margin-left:25%;      
+   margin-top:50px;
+
+   }         
+   
+   .form .img{
+
+   width:130px;    
+   height:130px;         
+   margin-left:120px;    
+   margin-bottom:20px;
+
+   }     
+
+   .file{
+
+   background:green;        
+
+   }     
+
+   .txt{
+
+   width:100%;              
+   text-align:center;    
+   padding-top:30px;  
+
+   }    
+
+   .title3{
+
+   color:white;    
+   font-weight:bold;       
+   font-size:18px;  
+   margin-top:-20px;  
+
+   }      
+
+   .message{
+
+   text-align:center;     
+   font-size:18px;    
+   font-weight:bold;    
+   color:yellow;      
+   margin-top:20px;
+
+   }  

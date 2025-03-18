@@ -1,0 +1,90 @@
+*{
+    
+font-family:"Lato", sans-serif;      
+
+}        
+
+body{
+
+background:#D3D3D3;         
+
+}   
+
+.content{
+
+display:flex;    
+align-items:center;       
+justify-content:center;        
+flex-direction:row;         
+margin-top:150px;                  
+
+}          
+
+.title{
+
+color:white;           
+font-weight:bold;    
+
+}
+
+.content .form{
+
+background:	#1C1C1C;         
+height:auto;             
+padding:20px;                
+width:300px;       
+border-radius:5px;    
+border:none;   
+
+}            
+
+.content .form .topo{
+
+text-align:center;      
+font-size:25px; 
+
+}           
+
+.content .form form input{
+
+display:block;        
+margin:20px;               
+width:250px;     
+font-size:15px;   
+padding:7px;        
+outline:none;       
+border-radius:5px;    
+border:none;         
+
+}               
+
+.content .form form button{
+
+    display:block;        
+    margin:20px;               
+    width:264px;     
+    font-size:15px;   
+    padding:7px;        
+    outline:none;       
+    border-radius:5px;    
+    border:none; 
+    font-weight:bold;        
+    background:#3CB371;    
+    color:white;    
+
+}      
+
+.message{
+
+text-align:center;      
+
+}      
+
+.message .aviso{
+
+color:yellow;     
+font-weight:bold;         
+
+}
+
+
